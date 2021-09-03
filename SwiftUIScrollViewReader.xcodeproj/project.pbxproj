@@ -11,6 +11,7 @@
 		A391256826E276CF004743B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A391256726E276CF004743B5 /* ContentView.swift */; };
 		A391256A26E276D2004743B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A391256926E276D2004743B5 /* Assets.xcassets */; };
 		A391256D26E276D2004743B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A391256C26E276D2004743B5 /* Preview Assets.xcassets */; };
+		A391257826E280BE004743B5 /* Screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = A391257726E280BD004743B5 /* Screenshot1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A391256926E276D2004743B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A391256C26E276D2004743B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A391256E26E276D2004743B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A391257726E280BD004743B5 /* Screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		A391256426E276CF004743B5 /* SwiftUIScrollViewReader */ = {
 			isa = PBXGroup;
 			children = (
+				A391257526E27FF0004743B5 /* Screenshot */,
 				A391256526E276CF004743B5 /* SwiftUIScrollViewReaderApp.swift */,
 				A391256726E276CF004743B5 /* ContentView.swift */,
 				A391256926E276D2004743B5 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				A391256C26E276D2004743B5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A391257526E27FF0004743B5 /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				A391257726E280BD004743B5 /* Screenshot1.png */,
+			);
+			path = Screenshot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A391257826E280BE004743B5 /* Screenshot1.png in Resources */,
 				A391256D26E276D2004743B5 /* Preview Assets.xcassets in Resources */,
 				A391256A26E276D2004743B5 /* Assets.xcassets in Resources */,
 			);
